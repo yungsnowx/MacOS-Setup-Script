@@ -4,12 +4,13 @@ Spoof the MAC-Adress every boot and disable Wi-Fi interface at logout ([Source](
 
 ## Install Apps
 ### Console
-| App      | Description     |
-| -------- | --------------- |
-| brew     | package manager |
-| neofetch | yeah... u know. |
-| htop     | task manager    |
-| figlet   | ascii art       |
+| App      | Description              |
+| -------- | ------------------------ |
+| brew     | package manager          |
+| neofetch | yeah... u know.          |
+| htop     | task manager             |
+| figlet   | ascii art                |
+| pandoc   | markup format conversion |
 
 ### Graphical
 | App                | Description                      |
@@ -23,3 +24,4 @@ Spoof the MAC-Adress every boot and disable Wi-Fi interface at logout ([Source](
 | Spotify            | music                            |
 | Visual Studio Code | for development                  |
 | ExifCleaner        | cleans the exif data from a file |
+| MacTeX (no-gui)    | tex live distribution            |

@@ -69,13 +69,13 @@ clear
 echo Install Homebrew, neofetch, cask and htop
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 brew analytics off
-brew install neofetch htop cask figlet
+brew install neofetch htop cask figlet pandoc
 
 clear
 
 echo Install Apps
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
-brew install --cask firefox tor-browser iterm2 rectangle textmate alfred appcleaner spotify visual-studio-code exifcleaner
+brew install --cask firefox tor-browser iterm2 rectangle textmate alfred appcleaner spotify visual-studio-code exifcleaner mactex-no-gui
 clear
 
 echo Cleaning up...
