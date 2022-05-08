@@ -16,7 +16,7 @@ Spoof the MAC-Adress every boot and disable Wi-Fi interface at logout ([Source](
 | App                | Description                      |
 | ------------------ | -------------------------------- |
 | Firefox            | webbrowser i use                 |
-| Tor-Browser        | if needed...                     |
+| Tor-Browser        | secure webbrowser                |
 | iTerm2             | better terminal                  |
 | Rectangle          | window snapping                  |
 | TextMate           | text editor                      |
