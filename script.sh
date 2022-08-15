@@ -66,6 +66,9 @@ sudo defaults write com.apple.loginwindow LogoutHook "/usr/local/sbin/spoof-hook
 
 clear
 
+echo Install xcode build tools
+xcode-select --install
+
 echo Install Homebrew, neofetch, cask and htop
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 brew analytics off
