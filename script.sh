@@ -75,7 +75,9 @@ clear
 
 echo Install Apps
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
-brew install --cask firefox tor-browser iterm2 rectangle textmate appcleaner spotify whatsapp discord vscodium exifcleaner microsoft-word mactex-no-gui coconutbattery veracrypt syncthing wire altserver
+brew install --cask firefox tor-browser iterm2 rectangle textmate appcleaner spotify whatsapp discord \
+                    vscodium exifcleaner microsoft-word microsoft-excel microsoft-powerpoint mactex-no-gui \
+                    coconutbattery veracrypt syncthing wire altserver mullvadvpn
 clear
 
 echo Cleaning up...
