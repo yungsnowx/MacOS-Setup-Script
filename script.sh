@@ -72,15 +72,15 @@ xcode-select --install
 echo Install Homebrew, neofetch, cask and htop
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 brew analytics off
-brew install neofetch htop cask figlet pandoc wget ipcalc 
+brew install neofetch htop cask figlet wget ipcalc 
 
 clear
 
 echo Install Apps
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
-brew install --cask firefox tor-browser iterm2 rectangle textmate appcleaner spotify whatsapp discord \
-                    vscodium exifcleaner microsoft-word microsoft-excel microsoft-powerpoint mactex-no-gui \
-                    coconutbattery veracrypt syncthing wire altserver mullvadvpn
+brew install --cask brave-browser tor-browser thunderbird iterm2 rectangle alt-tab textmate appcleaner spotify notion \
+                    whatsapp discord visual-studio-code exifcleaner microsoft-word microsoft-excel \
+                    microsoft-powerpoint coconutbattery macfuse veracrypt mullvadvpn
 clear
 
 echo Cleaning up...
